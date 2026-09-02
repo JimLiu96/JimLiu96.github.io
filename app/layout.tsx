@@ -13,17 +13,20 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://zhiwei-liu-ai-research.recursive-su-6382.chatgpt.site'),
   title: 'Zhiwei Liu — AI Researcher',
   description: 'Zhiwei Liu is a Senior Applied Scientist at Microsoft AI researching AI agents, information retrieval, large language models, and recommender systems.',
   openGraph: {
     title: 'Zhiwei Liu — AI Researcher',
     description: 'Research in AI agents, search, large language models, and recommender systems.',
     type: 'website',
+    images: [{ url: 'https://zhiwei-liu-ai-research.recursive-su-6382.chatgpt.site/og.png', width: 1730, height: 909, alt: 'Zhiwei Liu — AI Agents, Search, Recommendation' }],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Zhiwei Liu — AI Researcher',
     description: 'Research in AI agents, search, large language models, and recommender systems.',
+    images: ['https://zhiwei-liu-ai-research.recursive-su-6382.chatgpt.site/og.png'],
   },
 };
 
