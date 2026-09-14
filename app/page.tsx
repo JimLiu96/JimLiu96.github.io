@@ -120,10 +120,7 @@ export default function Home() {
         <section className="academicIntro" id="about">
           <div>
             <h1>Zhiwei Liu</h1>
-            <p className="role">
-              Member of Technical Staff ·{' '}
-              <a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a>
-            </p>
+            <p className="role">Member of Technical Staff · Recursive</p>
             <p>
               I am a Member of Technical Staff at{' '}
               <a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a>.
@@ -161,7 +158,7 @@ export default function Home() {
             </figure>
             <div className="contactDetails" id="contact">
               <h2>Contact</h2>
-              <p><a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a></p>
+              <p>Recursive</p>
               <p>zhiweiliu@recursive.com<br />jim96liu [at] gmail.com</p>
               <div className="profileLinks">
                 {profiles.map((profile) => (
