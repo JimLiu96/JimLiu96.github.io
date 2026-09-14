@@ -1,0 +1,4 @@
+interface:
+  display_name: "Personal Website Updates"
+  short_description: "Safely update this personal academic website"
+  default_prompt: "Use $personal-website-updates to add a news item and maintain the activity archive."

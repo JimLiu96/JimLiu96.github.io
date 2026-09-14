@@ -1,8 +1,12 @@
 'use client';
 
-import { useMemo, useState } from 'react';
+import { useState } from 'react';
 
 const publications = [
+  { year: 2026, title: 'Test-Time Adaptation for LLM Agents via Environment Interaction', venue: 'ICLR', topic: 'Agents', href: 'https://scholar.google.com/citations?view_op=view_citation&user=dfjWd2oAAAAJ&citation_for_view=dfjWd2oAAAAJ:kRWSkSYxWN8C' },
+  { year: 2026, title: 'WebScale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels', venue: 'ICLR', topic: 'Agents', href: 'https://scholar.google.com/citations?view_op=view_citation&user=dfjWd2oAAAAJ&citation_for_view=dfjWd2oAAAAJ:sSrBHYA8nusC' },
+  { year: 2026, title: 'UserBench: An Interactive Gym Environment for User-Centric Agents', venue: 'EMNLP', topic: 'Agents', href: 'https://openreview.net/forum?id=4kOvQ62Q0k' },
+  { year: 2026, title: 'UserRL: A Gym-Based Testbed for User-Centric Reinforcement Learning', venue: 'EMNLP', topic: 'Agents', href: 'https://openreview.net/forum?id=5Vwmy68Vto' },
   { year: 2025, title: 'MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models', venue: 'arXiv', topic: 'Agents', href: 'https://arxiv.org/abs/2507.12806' },
   { year: 2025, title: 'LATTE: Learning to Think with Vision Specialists', venue: 'EMNLP', topic: 'Multimodal', href: 'https://arxiv.org/abs/2412.05479' },
   { year: 2024, title: 'PRACT: Optimizing Principled Reasoning and Acting of LLM Agent', venue: 'CoNLL', topic: 'Agents', href: 'https://arxiv.org/abs/2410.18528' },
@@ -19,23 +23,12 @@ const publications = [
 const topics = ['All', 'Agents', 'Multimodal', 'Language', 'Recommendation'];
 
 export default function PublicationList() {
-  const [query, setQuery] = useState('');
   const [topic, setTopic] = useState('All');
-
-  const filtered = useMemo(() => publications.filter((paper) => {
-    const matchesTopic = topic === 'All' || paper.topic === topic;
-    const haystack = `${paper.title} ${paper.venue} ${paper.topic} ${paper.year}`.toLowerCase();
-    return matchesTopic && haystack.includes(query.toLowerCase().trim());
-  }), [query, topic]);
+  const filtered = publications.filter((paper) => topic === 'All' || paper.topic === topic);
 
   return (
     <section className="publicationArchive" aria-label="Selected publications">
       <div className="publicationTools">
-        <label className="searchBox">
-          <span className="srOnly">Search publications</span>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search titles, topics, or venues…" />
-          <b aria-hidden="true">⌕</b>
-        </label>
         <div className="topicFilters" aria-label="Filter publications by topic">
           {topics.map((item) => (
             <button key={item} className={topic === item ? 'active' : ''} onClick={() => setTopic(item)}>{item}</button>
@@ -53,7 +46,7 @@ export default function PublicationList() {
             <b aria-hidden="true">↗</b>
           </a>
         ))}
-        {filtered.length === 0 && <p className="emptyState">No papers match that search. Try another topic or phrase.</p>}
+        {filtered.length === 0 && <p className="emptyState">No papers are listed for this topic.</p>}
       </div>
     </section>
   );

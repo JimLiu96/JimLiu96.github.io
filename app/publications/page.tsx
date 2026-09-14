@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-html-link-for-pages -- vinext currently fails to hydrate next/link */
 import type { Metadata } from 'next';
 import PublicationList from './publication-list';
 
@@ -13,7 +14,7 @@ export default function PublicationsPage() {
         <a className="wordmark" href="/" aria-label="Zhiwei Liu, home">ZL<span>.</span></a>
         <div className="navLinks">
           <a href="/">Home</a>
-          <a href="mailto:zhiweiliu@microsoft.com">Contact</a>
+          <a href="/#contact">Contact</a>
         </div>
       </nav>
 
@@ -37,7 +38,7 @@ export default function PublicationsPage() {
 
       <footer>
         <p>© {new Date().getFullYear()} Zhiwei Liu</p>
-        <div><a href="/">Home</a><a href="mailto:zhiweiliu@microsoft.com">Email</a></div>
+        <div><a href="/">Home</a><a href="/#contact">Contact</a></div>
       </footer>
     </main>
   );

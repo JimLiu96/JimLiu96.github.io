@@ -1,0 +1,119 @@
+{
+  "homeNews": [
+    {
+      "date": "2026-08-18",
+      "label": "Aug. 2026",
+      "title": "I joined Recursive as a Member of Technical Staff.",
+      "detail": "",
+      "href": "https://www.recursive.com/"
+    },
+    {
+      "date": "2026-08-01",
+      "label": "Aug. 2026",
+      "title": "Two papers accepted to EMNLP 2026.",
+      "detail": ""
+    },
+    {
+      "date": "2026-05-01",
+      "label": "May 2026",
+      "title": "I joined Bing Search at Microsoft AI as a Senior Applied Scientist.",
+      "detail": ""
+    }
+  ],
+  "activities": [
+    {
+      "date": "2026-08-10",
+      "label": "Aug. 2026",
+      "title": "Co-organized the fifth Agent4IR workshop at KDD 2026",
+      "detail": "AI Agent for Information Retrieval, held in Jeju, Korea.",
+      "href": "https://sites.google.com/view/ai4ir/kdd-2026"
+    },
+    {
+      "date": "2024-07-01",
+      "label": "July 2024",
+      "title": "Organized Agent4IR at CIKM 2024",
+      "detail": "A workshop on AI agents for information retrieval.",
+      "href": "https://sites.google.com/view/ai4ir"
+    },
+    {
+      "date": "2024-05-01",
+      "label": "May 2024",
+      "title": "Paper accepted to the KDD 2024 Research Track",
+      "detail": "Pre-Training with Transferable Attention for Addressing Market Shifts in Cross-Market Sequential Recommendation."
+    },
+    {
+      "date": "2024-03-03",
+      "label": "Mar. 2024",
+      "title": "Instruction-based Hypergraph Pretraining accepted to SIGIR 2024",
+      "detail": "Accepted to the full paper track."
+    },
+    {
+      "date": "2024-03-02",
+      "label": "Mar. 2024",
+      "title": "BOLAA accepted to LLMAgent@ICLR",
+      "detail": "Workshop acceptance for work on benchmarking and orchestrating LLM-augmented agents.",
+      "href": "https://arxiv.org/abs/2308.05960"
+    },
+    {
+      "date": "2024-03-01",
+      "label": "Mar. 2024",
+      "title": "Released xLAM-v0.1-r",
+      "detail": "A language model for agent systems, released with the AgentLite benchmark.",
+      "href": "https://huggingface.co/Salesforce/xLAM-v0.1-r"
+    },
+    {
+      "date": "2024-02-01",
+      "label": "Feb. 2024",
+      "title": "Released AgentLite",
+      "detail": "An open-source library for building task-oriented LLM agent systems.",
+      "href": "https://github.com/SalesforceAIResearch/AgentLite"
+    },
+    {
+      "date": "2023-10-02",
+      "label": "Oct. 2023",
+      "title": "CIKM best short paper honorable mention",
+      "detail": "Recognition for work on graph-based alignment and uniformity for recommendation.",
+      "href": "https://arxiv.org/abs/2308.09292"
+    },
+    {
+      "date": "2023-10-01",
+      "label": "Oct. 2023",
+      "title": "Two papers accepted to WSDM 2024",
+      "detail": "Two new contributions to web search and data mining."
+    },
+    {
+      "date": "2023-08-02",
+      "label": "Aug. 2023",
+      "title": "Released BOLAA",
+      "detail": "A benchmark and orchestration framework for LLM-augmented autonomous agents.",
+      "href": "https://github.com/salesforce/BOLAA"
+    },
+    {
+      "date": "2023-08-01",
+      "label": "Aug. 2023",
+      "title": "Three papers accepted to CIKM",
+      "detail": "Two long papers and one short paper."
+    },
+    {
+      "date": "2023-07-01",
+      "label": "July 2023",
+      "title": "Released DialogStudio",
+      "detail": "A large-scale collection of dialog datasets and instruction-aware models.",
+      "href": "https://github.com/salesforce/DialogStudio"
+    },
+    {
+      "date": "2022-12-01",
+      "label": "Dec. 2022",
+      "title": "Opened the KT4Rec special issue for submissions",
+      "detail": "ACM TORS special issue on Knowledge Transferring for Recommender Systems.",
+      "href": "https://recommender-systems.com/news/2023/06/28/acm-tors-cfp-kt4rec/"
+    },
+    {
+      "date": "2022-10-01",
+      "label": "Oct. 2022",
+      "title": "CIKM best paper runner-up",
+      "detail": "Recognition for a paper published at CIKM 2022.",
+      "href": "https://www.cikm2022.org/best-paper"
+    }
+  ]
+}
