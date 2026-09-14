@@ -120,9 +120,14 @@ export default function Home() {
         <section className="academicIntro" id="about">
           <div>
             <h1>Zhiwei Liu</h1>
-            <p className="role">Member of Technical Staff · Recursive</p>
+            <p className="role">
+              Member of Technical Staff ·{' '}
+              <a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a>
+            </p>
             <p>
-              I am a Member of Technical Staff at Recursive. Previously, I was a Senior Applied
+              I am a Member of Technical Staff at{' '}
+              <a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a>.
+              {' '}Previously, I was a Senior Applied
               Scientist at Microsoft AI, where I worked on Bing Search, and a Senior Research
               Scientist at Salesforce AI Research from 2022 to 2026. I received my Ph.D. from
               the University of Illinois Chicago in 2022, advised by{' '}
@@ -156,7 +161,7 @@ export default function Home() {
             </figure>
             <div className="contactDetails" id="contact">
               <h2>Contact</h2>
-              <p>Recursive</p>
+              <p><a href="https://www.recursive.com/" target="_blank" rel="noreferrer">Recursive</a></p>
               <p>zhiweiliu@recursive.com<br />jim96liu [at] gmail.com</p>
               <div className="profileLinks">
                 {profiles.map((profile) => (
