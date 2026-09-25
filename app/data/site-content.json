@@ -1,6 +1,12 @@
 {
   "homeNews": [
     {
+      "date": "2026-09-25",
+      "label": "Sep. 2026",
+      "title": "Two papers accepted to the NeurIPS 2026 Evaluations & Datasets Track.",
+      "detail": "Topics: long-horizon healthcare agent workflows and real-world user decision modeling."
+    },
+    {
       "date": "2026-08-18",
       "label": "Aug. 2026",
       "title": "I joined Recursive as a Member of Technical Staff.",

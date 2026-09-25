@@ -37,6 +37,20 @@ function ProfileIcon({ name }: { name: string }) {
 const selectedPublications = [
   {
     year: '2026',
+    title: 'χ-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?',
+    authors: 'Haolin Chen, Deon Metelski, Leon Qi, Tao Xia, Joonyul Lee, et al.',
+    venue: 'Conference on Neural Information Processing Systems (NeurIPS), Evaluations & Datasets Track',
+    href: 'https://openreview.net/forum?id=UgC5P05iuV',
+  },
+  {
+    year: '2026',
+    title: 'BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces',
+    authors: 'Liangwei Yang, Jielin Qiu, Zixiang Chen, Ming Zhu, Juntao Tan, Zhiwei Liu, et al.',
+    venue: 'Conference on Neural Information Processing Systems (NeurIPS), Evaluations & Datasets Track',
+    href: 'https://openreview.net/forum?id=wry0uLfZbi',
+  },
+  {
+    year: '2026',
     title: 'Test-Time Adaptation for LLM Agents via Environment Interaction',
     authors: 'A. Chen, Z. Liu, J. Zhang, A. Prabhakar, Z. Liu, S. Heinecke, S. Savarese, et al.',
     venue: 'International Conference on Learning Representations (ICLR)',

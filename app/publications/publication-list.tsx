@@ -3,6 +3,8 @@
 import { useState } from 'react';
 
 const publications = [
+  { year: 2026, title: 'χ-Bench: Can AI Agents Automate End-to-End, Long-Horizon, Policy-Rich Healthcare Workflows?', venue: 'NeurIPS E&D', topic: 'Agents', href: 'https://openreview.net/forum?id=UgC5P05iuV' },
+  { year: 2026, title: 'BehaviorBench: Modeling Real-World User Decisions from Behavioral Traces', venue: 'NeurIPS E&D', topic: 'Agents', href: 'https://openreview.net/forum?id=wry0uLfZbi' },
   { year: 2026, title: 'Test-Time Adaptation for LLM Agents via Environment Interaction', venue: 'ICLR', topic: 'Agents', href: 'https://scholar.google.com/citations?view_op=view_citation&user=dfjWd2oAAAAJ&citation_for_view=dfjWd2oAAAAJ:kRWSkSYxWN8C' },
   { year: 2026, title: 'WebScale-RL: Automated Data Pipeline for Scaling RL Data to Pretraining Levels', venue: 'ICLR', topic: 'Agents', href: 'https://scholar.google.com/citations?view_op=view_citation&user=dfjWd2oAAAAJ&citation_for_view=dfjWd2oAAAAJ:sSrBHYA8nusC' },
   { year: 2026, title: 'UserBench: An Interactive Gym Environment for User-Centric Agents', venue: 'EMNLP', topic: 'Agents', href: 'https://openreview.net/forum?id=4kOvQ62Q0k' },
