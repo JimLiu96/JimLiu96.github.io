@@ -147,7 +147,7 @@ export default function Home() {
               University of Electronic Science and Technology of China (UESTC).
             </p>
             <p>
-              My current research focuses on <strong>Recursive Super-intelligence (RSI)</strong>,
+              My current research focuses on <strong>Recursive Self-Improvement (RSI)</strong>,
               <strong> Agent Data &amp; Evaluation</strong>, and <strong>Agentic Information Retrieval</strong>.
               I have authored more than 100 papers in venues including NeurIPS, ICLR, KDD, SIGIR,
               WSDM, WWW, CIKM, and EMNLP, and hold 12 patents globally.
@@ -204,7 +204,7 @@ export default function Home() {
         <section className="academicSection">
           <h2>Research interests</h2>
           <ul className="interestList">
-            <li>Recursive Super-intelligence (RSI)</li>
+            <li>Recursive Self-Improvement (RSI)</li>
             <li>Agent Data &amp; Evaluation</li>
             <li>Agentic Information Retrieval</li>
           </ul>
