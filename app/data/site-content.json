@@ -1,6 +1,13 @@
 {
   "homeNews": [
     {
+      "date": "2026-10-18",
+      "label": "Oct. 2026",
+      "title": "Recursive Flint model",
+      "detail": "released, which is built for fast local coding agent.",
+      "href": "https://recursive.com/updates/introducing-recursive-flint"
+    },
+    {
       "date": "2026-09-25",
       "label": "Sep. 2026",
       "title": "Two papers accepted to the NeurIPS 2026 Evaluations & Datasets Track.",
@@ -18,12 +25,6 @@
       "label": "Aug. 2026",
       "title": "Two papers accepted to EMNLP 2026.",
       "detail": ""
-    },
-    {
-      "date": "2026-05-01",
-      "label": "May 2026",
-      "title": "I joined Bing Search at Microsoft AI as a Senior Applied Scientist.",
-      "detail": ""
     }
   ],
   "activities": [
@@ -33,6 +34,12 @@
       "title": "Co-organized the fifth Agent4IR workshop at KDD 2026",
       "detail": "AI Agent for Information Retrieval, held in Jeju, Korea.",
       "href": "https://sites.google.com/view/ai4ir/kdd-2026"
+    },
+    {
+      "date": "2026-05-01",
+      "label": "May 2026",
+      "title": "I joined Bing Search at Microsoft AI as a Senior Applied Scientist.",
+      "detail": ""
     },
     {
       "date": "2024-07-01",
